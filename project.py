@@ -8,9 +8,8 @@ def connect():
     return psycopg2.connect(
         host="prod-db.shopexample.internal",
         dbname="shop_production",
-        user="report_admin",
-        flag="CIT{b1zu_khd4m_b_g1t}"
-        password="Summer2024!",   # hardcoded, the insecure part
+        user="",
+        password="",   # hardcoded, the insecure part
     )
  
  
